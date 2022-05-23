@@ -107,7 +107,7 @@ moveBtn.forEach((element) => {
   });
 });
 
-areaId.addEventListener("keydown", function (e) {
+body.addEventListener("keydown", function (e) {
   let btn = e.key;
   MaxWith = area.clientWidth - gameObject.offsetWidth;
   MaxHeiht = area.clientHeight - gameObject.offsetHeight;
